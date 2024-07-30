@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body,
+div,
+h2,
+h5,
+p,
+footer,
+img {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card-container {
+  width: 24rem;
+  height: 32.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.44rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 1.25rem;
+  padding: 1.38rem 1.415rem;
+  box-shadow: 0.5rem 0.5rem;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.details-container {
+  padding-right: 0.7rem;
+}
+
+.details-container h5 {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 800;
+  padding: 0.37rem 0.78rem;
+  border-radius: 4.5px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.puplish-date {
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin: 0.9rem 0 1.07rem;
+}
+
+.details-container h2 {
+  font-size: x-large;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  transition: ease 0.5s;
+}
+
+.details-container h2:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.description {
+  font-size: 1rem;
+  word-spacing: 0.3px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 0.13px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.76rem;
+}
+
+.author img {
+  width: 32px;
+}
+
+.author p {
+  font-size: 0.89rem;
+  font-weight: 800;
+}
+
+@media (max-width: 404px) {
+  body {
+    padding: 5px 10px 5px 5px;
+  }
+}
