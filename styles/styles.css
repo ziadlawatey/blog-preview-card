@@ -73,6 +73,7 @@ body {
   font-weight: 800;
   margin-bottom: 1rem;
   transition: ease 0.5s;
+  cursor: pointer;
 }
 
 .details-container h2:hover {
